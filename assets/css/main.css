@@ -2055,9 +2055,9 @@ input, select, textarea {
 	.dark input[type="reset"],
 	.dark button,
 	.dark .button {
-		background: rgba(255, 255, 255, 0.15);
+		background: rgba(255, 255, 255, 0.701);
 		box-shadow: inset 0 0 0 1px #fff;
-		color: #fff;
+		color: #000;
 	}
 
 		.dark input[type="button"]:hover,
@@ -2182,8 +2182,8 @@ input, select, textarea {
 	#header {
 		position: relative;
 		margin: 0;
-		/* Photo by Willian Justen de Vasconcellos on Unsplash */
-		background-image: url("images/overlay.png"), url("../../images/willian-justen-de-vasconcellos-.jpg");
+		/* Photo by Rythik on Unsplash */
+		background-image: url("images/overlay.png"), url("../../images/forest.jpg");
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: no-repeat;
@@ -2196,6 +2196,9 @@ input, select, textarea {
 			font-size: 2.25em;
 			line-height: 1.25em;
 			margin-bottom: 0;
+			background-color: black;
+			padding: 1rem;
+			width: 50%;
 		}
 
 		#header header p {
@@ -2517,4 +2520,15 @@ input, select, textarea {
 		background-repeat: space;
 		padding: 1rem;
 		border-radius: 10px;
+	}
+
+	#header header{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#header header p {
+		background-color: black;
+		padding: .5rem;
 	}
