@@ -2182,10 +2182,11 @@ input, select, textarea {
 	#header {
 		position: relative;
 		margin: 0;
+		/* Photo by Willian Justen de Vasconcellos on Unsplash */
 		background-image: url("images/overlay.png"), url("../../images/willian-justen-de-vasconcellos-.jpg");
 		background-size: auto, cover;
 		background-position: top left, center center;
-		background-repeat: repeat, no-repeat;
+		background-repeat: no-repeat;
 		padding: 14em 0 14em 0;
 		text-align: center;
 		color: #fff;
@@ -2248,12 +2249,16 @@ input, select, textarea {
 				background: #433;
 			}
 
+			/* Photo by Graham Holtshausen on Unsplash */
 			.main > .content.style1 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+				background-image: url("../../images/graham-holtshausen.jpg");
+				background-repeat: round;
 			}
 
+			/* Photo by Tobias Tullius on Unsplash */
 			.main > .content.style2 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
+				background-image: url("../../images/tobias-tullius.jpg");
+				background-repeat: round;
 			}
 
 			.main > .content.style3 {
@@ -2459,6 +2464,14 @@ input, select, textarea {
 				padding-left: 0.35em;
 			}
 
+			.feature-icon {
+				display:none;
+			}
+
+			.image.fit {
+				display: none;
+			}
+
 		/* Menu */
 
 			ul.menu li {
@@ -2499,5 +2512,9 @@ input, select, textarea {
 	}
 
 	/* Custom CSS */
-	#photoCredit {
+	.style2Text {
+		background-color: #000;
+		background-repeat: space;
+		padding: 1rem;
+		border-radius: 10px;
 	}
