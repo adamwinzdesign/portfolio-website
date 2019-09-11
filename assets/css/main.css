@@ -2536,3 +2536,17 @@ input, select, textarea {
 	.mid-text {
 		background-color: black;
 	}
+
+	#topInfo {
+		display: flex;
+		flex-direction: column;
+		width: 30%;
+		align-items: center;
+		margin: 0 auto;
+	}
+
+	#topInfo .photoCredit {
+		margin-top: 3rem;
+		background: black;
+		padding: 1rem;
+	}
