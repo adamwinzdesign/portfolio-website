@@ -2252,15 +2252,15 @@ input, select, textarea {
 				background: #433;
 			}
 
-			/* Photo by Graham Holtshausen on Unsplash */
+			/* Photo by Briana Tozour on Unsplash */
 			.main > .content.style1 {
-				background-image: url("../../images/graham-holtshausen.jpg");
+				background-image: url("../../images/nightCity.jpg");
 				background-repeat: round;
 			}
 
-			/* Photo by Tobias Tullius on Unsplash */
+			/* Photo by Brittney Butler on Unsplash */
 			.main > .content.style2 {
-				background-image: url("../../images/tobias-tullius.jpg");
+				background-image: url("../../images/stl.jpg");
 				background-repeat: round;
 			}
 
@@ -2531,4 +2531,8 @@ input, select, textarea {
 	#header header p {
 		background-color: black;
 		padding: .5rem;
+	}
+
+	.mid-text {
+		background-color: black;
 	}
